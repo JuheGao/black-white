@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <PopupModule :showPopup="true" />
+    <PopupModule />
   </div>
 </template>
 

@@ -27,17 +27,18 @@ export default {
   },
   data() {
     return {
+      showPopup: true,
       issueLock: false,
       reviewText: '',
       sliderValue: 50
     }
   },
-  props: {
-      showPopup: Boolean,
-      default() {
-          return false
-      }
-    },
+  // props: {
+  //   showPopup: Boolean,
+  //   default() {
+  //     return true
+  //   }
+  // },
   mounted() {
     const self = this;
     // 初始化 弹框模块

@@ -17,7 +17,7 @@
     props: {
       sliderSchedule: Number,
       default() {
-          return 0
+        return 0
       }
     },
     data() {
@@ -39,7 +39,7 @@
       initSliderModule() {
         const self = this;
         self.$nextTick(() => {
-          console.log(self.$refs.sliderBlock)
+          // console.log(self.$refs.sliderBlock)
           const sliderModuleRef = self.$refs.sliderModule
           const sliderBlockRef = self.$refs.sliderBlock
           const sliderRunnerRef = self.$refs.sliderRunner
