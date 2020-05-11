@@ -1,20 +1,16 @@
 <template>
   <div class="home">
-    Home
-    <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-    <RecordModule></RecordModule>
-    <Actionsheet></Actionsheet>
+    <PopupModule :showPopup="true" />
   </div>
 </template>
 
 <script>
-import { Actionsheet  } from 'vux'
-import RecordModule from '@/components/recordModule'
+import PopupModule from '@/components/popupModule.vue'
+
 export default {
   name: 'Home',
   components: {
-    RecordModule,
-    Actionsheet
+    PopupModule
   }
 }
 </script>
